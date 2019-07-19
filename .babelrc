@@ -1,0 +1,6 @@
+{
+    "presets": ["@babel/env", "@babel/react"],
+    "plugins": [
+        "@babel/plugin-proposal-class-properties" // this.someHandler = this.someHandler.bind(this); <- Let's not use bind!
+    ]
+}
